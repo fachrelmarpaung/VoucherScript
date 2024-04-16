@@ -1,0 +1,81 @@
+[16-Jan-2024 11:00:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/voucherp/phdkomunitas.com/function/function.php:496
+Stack trace:
+#0 /home/voucherp/phdkomunitas.com/function/function.php(506): ClaimInstance->CheckNumber()
+#1 /home/voucherp/phdkomunitas.com/template/claim.php(14): ClaimInstance->inputdata()
+#2 {main}
+  thrown in /home/voucherp/phdkomunitas.com/function/function.php on line 496
+[16-Jan-2024 11:03:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/voucherp/phdkomunitas.com/function/function.php:496
+Stack trace:
+#0 /home/voucherp/phdkomunitas.com/function/function.php(506): ClaimInstance->CheckNumber()
+#1 /home/voucherp/phdkomunitas.com/template/claim.php(14): ClaimInstance->inputdata()
+#2 {main}
+  thrown in /home/voucherp/phdkomunitas.com/function/function.php on line 496
+[17-Jan-2024 08:19:50 UTC] PHP Warning:  Undefined array key "idoutlet" in /home/voucherp/phdkomunitas.com/template/claim.php on line 346
+[17-Jan-2024 11:36:11 UTC] PHP Warning:  Undefined array key "idoutlet" in /home/voucherp/phdkomunitas.com/template/claim.php on line 346
+[21-Jan-2024 09:42:53 UTC] PHP Fatal error:  Uncaught Error: Class "checkVoucer" not found in /home/voucherp/phdkomunitas.com/template/confirm.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/voucherp/phdkomunitas.com/template/confirm.php on line 17
+[22-Jan-2024 05:48:51 UTC] PHP Warning:  Undefined array key "idoutlet" in /home/voucherp/phdkomunitas.com/template/claim.php on line 346
+[24-Jan-2024 01:42:16 UTC] PHP Warning:  Undefined array key "idoutlet" in /home/voucherp/phdkomunitas.com/template/claim.php on line 346
+[25-Jan-2024 13:50:29 UTC] PHP Warning:  Undefined array key "idoutlet" in /home/voucherp/phdkomunitas.com/template/claim.php on line 346
+[25-Jan-2024 13:50:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 445
+[25-Jan-2024 13:50:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 446
+[25-Jan-2024 13:50:55 UTC] PHP Deprecated:  CURLFile::__construct(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/voucherp/phdkomunitas.com/function/function.php on line 446
+[25-Jan-2024 13:50:55 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/voucherp/phdkomunitas.com/function/function.php:453
+Stack trace:
+#0 /home/voucherp/phdkomunitas.com/function/function.php(453): curl_setopt_array()
+#1 /home/voucherp/phdkomunitas.com/template/confirm.php(20): sender->sendTextMessageFromUrl()
+#2 {main}
+  thrown in /home/voucherp/phdkomunitas.com/function/function.php on line 453
+[25-Jan-2024 13:51:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 445
+[25-Jan-2024 13:51:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 446
+[25-Jan-2024 13:51:11 UTC] PHP Deprecated:  CURLFile::__construct(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/voucherp/phdkomunitas.com/function/function.php on line 446
+[25-Jan-2024 13:51:11 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/voucherp/phdkomunitas.com/function/function.php:453
+Stack trace:
+#0 /home/voucherp/phdkomunitas.com/function/function.php(453): curl_setopt_array()
+#1 /home/voucherp/phdkomunitas.com/template/confirm.php(20): sender->sendTextMessageFromUrl()
+#2 {main}
+  thrown in /home/voucherp/phdkomunitas.com/function/function.php on line 453
+[25-Jan-2024 13:51:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 445
+[25-Jan-2024 13:51:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 446
+[25-Jan-2024 13:51:20 UTC] PHP Deprecated:  CURLFile::__construct(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/voucherp/phdkomunitas.com/function/function.php on line 446
+[25-Jan-2024 13:51:20 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/voucherp/phdkomunitas.com/function/function.php:453
+Stack trace:
+#0 /home/voucherp/phdkomunitas.com/function/function.php(453): curl_setopt_array()
+#1 /home/voucherp/phdkomunitas.com/template/confirm.php(20): sender->sendTextMessageFromUrl()
+#2 {main}
+  thrown in /home/voucherp/phdkomunitas.com/function/function.php on line 453
+[27-Jan-2024 05:20:41 UTC] PHP Warning:  Undefined array key "idoutlet" in /home/voucherp/phdkomunitas.com/template/claim.php on line 346
+[28-Jan-2024 15:45:59 UTC] PHP Warning:  Undefined array key "idoutlet" in /home/voucherp/phdkomunitas.com/template/claim.php on line 346
+[28-Jan-2024 15:46:26 UTC] PHP Warning:  Undefined array key "idoutlet" in /home/voucherp/phdkomunitas.com/template/claim.php on line 346
+[28-Jan-2024 17:16:35 UTC] PHP Warning:  Undefined array key "idoutlet" in /home/voucherp/phdkomunitas.com/template/claim.php on line 346
+[29-Jan-2024 06:15:59 UTC] PHP Warning:  Undefined array key "idoutlet" in /home/voucherp/phdkomunitas.com/template/claim.php on line 346
+[29-Jan-2024 06:16:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 447
+[29-Jan-2024 06:16:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 448
+[29-Jan-2024 06:16:07 UTC] PHP Deprecated:  CURLFile::__construct(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/voucherp/phdkomunitas.com/function/function.php on line 448
+[29-Jan-2024 06:16:07 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/voucherp/phdkomunitas.com/function/function.php:455
+Stack trace:
+#0 /home/voucherp/phdkomunitas.com/function/function.php(455): curl_setopt_array()
+#1 /home/voucherp/phdkomunitas.com/template/confirm.php(20): sender->sendTextMessageFromUrl()
+#2 {main}
+  thrown in /home/voucherp/phdkomunitas.com/function/function.php on line 455
+[29-Jan-2024 06:16:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 447
+[29-Jan-2024 06:16:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 448
+[29-Jan-2024 06:16:10 UTC] PHP Deprecated:  CURLFile::__construct(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/voucherp/phdkomunitas.com/function/function.php on line 448
+[29-Jan-2024 06:16:10 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/voucherp/phdkomunitas.com/function/function.php:455
+Stack trace:
+#0 /home/voucherp/phdkomunitas.com/function/function.php(455): curl_setopt_array()
+#1 /home/voucherp/phdkomunitas.com/template/confirm.php(20): sender->sendTextMessageFromUrl()
+#2 {main}
+  thrown in /home/voucherp/phdkomunitas.com/function/function.php on line 455
+[29-Jan-2024 06:16:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 447
+[29-Jan-2024 06:16:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/voucherp/phdkomunitas.com/function/function.php on line 448
+[29-Jan-2024 06:16:18 UTC] PHP Deprecated:  CURLFile::__construct(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/voucherp/phdkomunitas.com/function/function.php on line 448
+[29-Jan-2024 06:16:18 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/voucherp/phdkomunitas.com/function/function.php:455
+Stack trace:
+#0 /home/voucherp/phdkomunitas.com/function/function.php(455): curl_setopt_array()
+#1 /home/voucherp/phdkomunitas.com/template/confirm.php(20): sender->sendTextMessageFromUrl()
+#2 {main}
+  thrown in /home/voucherp/phdkomunitas.com/function/function.php on line 455
+[29-Jan-2024 12:45:55 UTC] PHP Warning:  Undefined array key "idoutlet" in /home/voucherp/phdkomunitas.com/template/claim.php on line 346

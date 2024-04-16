@@ -1,0 +1,19 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^administrator$ dashboard/index.php
+RewriteRule ^administrator/dashboard$ dashboard/home.php
+RewriteRule ^administrator/Outlet$ dashboard/outlet.php
+RewriteRule ^administrator/addoutlet$ dashboard/tambahoutlet.php
+RewriteRule ^administrator/editOutlet$ dashboard/editoutlet.php
+RewriteRule ^administrator/ValidPhone$ dashboard/ValidPhone.php
+RewriteRule ^administrator/inValidPhone$ dashboard/inValidPhone.php
+RewriteRule ^administrator/Viewnumber$ dashboard/checknum.php
+RewriteRule ^administrator/Admins$ dashboard/Admins.php
+RewriteRule ^administrator/Phonenumber$ dashboard/Phonenumber.php
+RewriteRule ^administrator/MyProfile$ dashboard/MyProfile.php
+RewriteRule ^register$ dashboard/regist.php
+RewriteRule ^Welcome$ claim/welcome.php
+RewriteRule ^Voucher$ claim/kodeVoucher.php
+RewriteRule ^Thanks$ claim/thanks.php
+RewriteRule ^administrator/Landing$ dashboard/landingpage.php
+RewriteRule ^home$ template/404.php
