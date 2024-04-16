@@ -1,9 +1,10 @@
-# HOW TO USE VOUCHER SCRIPT
-1. Settings your PHPMYADMIN in your server
-2. download the script
-3. upload your script to your hosting
-4. upload your database to your phpmyadmin (but u need to make ur database first)
-5. Setting your database connecter to function/function.php
-6. Enjoy ur script.
+# HOW TO USE THE VOUCHER SCRIPT
+1. Setting your PHPMYADMIN on your server
+2. Download the script
+3. Download the database [Download Database](https://drive.google.com/file/d/1-M-R8saEEi8-B5YxUH55JpOm3tIRwMLf/view?usp=sharing)
+4. Upload your script to your hosting
+5. Upload your database to your phpmyadmin (but you have to create your database first)
+6. Set your database connector to function/function.php
+7. Enjoy your script.
 
-Thanks ^_^
+Thank you ^_^
